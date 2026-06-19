@@ -71,15 +71,15 @@ def construir_mensaje_resultado(zona_key: str, edad_key: str) -> str:
     edad = EDADES[edad_key]
 
     lineas = []
-    lineas.append("✅ *Tu registro está completo.* Aquí tienes tus grupos:\n")
+    lineas.append("✅ *Listo, ya estás dentro.*\n")
 
-    lineas.append(f"📍 *Tu zona: {zona['nombre']}* ({zona['detalle']})")
-    lineas.append(f"👉 [Unirme al grupo de mi zona]({zona['enlace']})\n")
+    lineas.append(f"📍 *Tu zona* — {zona['nombre']}")
+    lineas.append(f"[Unirme al grupo de mi zona]({zona['enlace']})\n")
 
-    lineas.append(f"🎂 *Tu rango de edad: {edad['nombre']}*")
-    lineas.append(f"👉 [Unirme al grupo de mi edad]({edad['enlace']})\n")
+    lineas.append(f"🎂 *Tu edad* — {edad['nombre']}")
+    lineas.append(f"[Unirme al grupo de mi edad]({edad['enlace']})\n")
 
-    lineas.append("🌐 *Grupos generales y temáticos* (abiertos para todos):")
+    lineas.append("🔥 *Además, estos están abiertos para todos:*")
     for grupo in GENERALES:
         lineas.append(f"• [{grupo['nombre']}]({grupo['enlace']})")
     lineas.append("")
@@ -103,8 +103,7 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         zona_key = registro["zona"]
         edad_key = registro["rango_edad"]
         texto = (
-            "ℹ️ Ya completaste tu registro anteriormente. "
-            "No es posible cambiar de zona o edad.\n\n"
+            "ℹ️ Ya hiciste tu registro antes, no puedes cambiar zona ni edad.\n\n"
         ) + construir_mensaje_resultado(zona_key, edad_key)
         await update.message.reply_text(
             texto, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
@@ -115,10 +114,8 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     context.user_data.clear()
     texto = (
         "👋 ¡Bienvenido/a a *Red Gay España*!\n\n"
-        "Para mostrarte los grupos correctos, primero dime: "
-        "¿cuál es la *capital de la provincia* donde resides?\n\n"
-        "Elige tu zona en la lista de abajo. Si vives fuera de España, "
-        "elige *Hispanoamérica*."
+        "Para llevarte a tus grupos, dime cuál es la *capital de tu provincia*.\n\n"
+        "Elige tu zona abajo. ¿Vives fuera de España? Elige *Hispanoamérica*."
     )
     await update.message.reply_text(
         texto, parse_mode=ParseMode.MARKDOWN, reply_markup=teclado_zonas()
@@ -139,7 +136,7 @@ async def callback_zona(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     registro = await database.obtener_registro(telegram_id)
     if registro is not None:
         texto = (
-            "ℹ️ Ya completaste tu registro anteriormente.\n\n"
+            "ℹ️ Ya hiciste tu registro antes.\n\n"
             + construir_mensaje_resultado(registro["zona"], registro["rango_edad"])
         )
         await query.edit_message_text(
@@ -151,7 +148,7 @@ async def callback_zona(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     zona_nombre = ZONAS[zona_key]["nombre"]
 
     texto = (
-        f"📍 Zona seleccionada: *{zona_nombre}*\n\n"
+        f"📍 Zona: *{zona_nombre}*\n\n"
         "Ahora dime tu rango de edad:"
     )
     await query.edit_message_text(
@@ -187,7 +184,7 @@ async def callback_edad(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         # Carrera: alguien completó el registro justo antes (muy raro, pero posible).
         registro = await database.obtener_registro(telegram_id)
         texto = (
-            "ℹ️ Ya completaste tu registro anteriormente.\n\n"
+            "ℹ️ Ya hiciste tu registro antes.\n\n"
             + construir_mensaje_resultado(registro["zona"], registro["rango_edad"])
         )
         await query.edit_message_text(
