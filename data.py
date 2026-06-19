@@ -1,10 +1,11 @@
+
 # -*- coding: utf-8 -*-
 """
 Datos estáticos del bot: zonas geográficas, rangos de edad y grupos generales.
 Cada entrada tiene un "callback_data" único (id corto) que se usa en los
 botones inline, y la info que se muestra/envía al usuario.
 """
-
+ 
 # ──────────────────────────────────────────────────────────────────────────
 # ZONAS GEOGRÁFICAS (provincias agrupadas)
 # callback_data debe ser único y estable (no cambiar una vez publicado el bot,
@@ -112,7 +113,7 @@ ZONAS = {
         "enlace": "https://t.me/+skalCSJKyew0MmRk",
     },
 }
-
+ 
 # ──────────────────────────────────────────────────────────────────────────
 # RANGOS DE EDAD
 # ──────────────────────────────────────────────────────────────────────────
@@ -134,7 +135,7 @@ EDADES = {
         "enlace": "https://t.me/+hS5vqc-bfhxjZDI0",
     },
 }
-
+ 
 # ──────────────────────────────────────────────────────────────────────────
 # GRUPOS GENERALES / TEMÁTICOS (se entregan siempre, a todo el mundo)
 # ──────────────────────────────────────────────────────────────────────────
@@ -144,21 +145,18 @@ GENERALES = [
     {"nombre": "Relatos Gay", "enlace": "https://t.me/+AG-WuXXW3aljNDI0"},
     {"nombre": "Retos Gay", "enlace": "https://t.me/+1Icwqo1fU-RlODQ0"},
     {"nombre": "BDSM (grupo adulto temático)", "enlace": "https://t.me/+UTxzuztF6hY5NmM0"},
-    {"nombre": "Grupos Amigos", "enlace": "https://t.me/+X0OWKauWJNphZmM0"},
     {"nombre": "Hablar sin miedo", "enlace": "https://t.me/+ga-9ISwD26g5OWRk"},
     {"nombre": "Conexiones Reales", "enlace": "https://t.me/+TNVU56xsqYM0OGFk"},
     {"nombre": "Intergeneracional (todas las edades)", "enlace": "https://t.me/+yDw1vZDRnlg0NWI0"},
+    {"nombre": "Grupos Amigos", "enlace": "https://t.me/+X0OWKauWJNphZmM0"},
 ]
-
+ 
 # Mención especial del grupo BOYS: no es un enlace de acceso directo,
 # tiene su propio embudo vía @BienvenidaPeccbot (presentación + foto + aprobación admin).
 BOYS_INFO = {
     "texto": (
-        "🔥 *Grupo BOYS* (chat con doble filtro, ambiente más activo)\n"
-        "1️⃣ Entra al grupo de presentación y escríbele a @BienvenidaPeccbot con tu "
-        "presentación (nombre, #Ciudad, #Edad, #LoQueBuscas) + una foto.\n"
-        "2️⃣ Si tu presentación cumple las normas, el bot te da el enlace secreto al grupo real.\n"
-        "3️⃣ Los admins te confirman el acceso.\n"
-        f"👉 [Grupo de presentación BOYS](https://t.me/+2oaZ75NXWAgwZGI0)"
+        "🔒 Y para *BOYS*, ambiente más activo: te presentas con foto en el "
+        f"[Grupo de presentación BOYS](https://t.me/+2oaZ75NXWAgwZGI0) y entras."
     )
 }
+ 
