@@ -170,4 +170,3 @@ BOYS_INFO = {
     )
     "excluir_edades": ["edad_-15","edad_15_18"],  # ej: ["edad_mas_50"] para ocultarlo a ese rango
 }
- 
