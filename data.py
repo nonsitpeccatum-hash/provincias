@@ -120,19 +120,19 @@ ZONAS = {
 EDADES = {
     "edad_18_30": {
         "nombre": "18 a 30",
-        "enlace": "https://t.me/+AP3dtljPdHlmM2M0",
+        "enlace": "https://t.me/+SIWj5Abr9-IxNjE0",
     },
     "edad_31_40": {
         "nombre": "31 a 40",
-        "enlace": "https://t.me/+PKxrDGqzbQdlNWFk",
+        "enlace": "https://t.me/+C3gOzB6vfX0zZDZk",
     },
     "edad_41_50": {
         "nombre": "41 a 50",
-        "enlace": "https://t.me/+HEVwA5soXdM1MjRk",
+        "enlace": "https://t.me/+J8P5rGEYjGU5Yzg0",
     },
     "edad_mas_50": {
         "nombre": "+50",
-        "enlace": "https://t.me/+hS5vqc-bfhxjZDI0",
+        "enlace": "https://t.me/+x2JlX0GqPhczYWM0",
     },
 }
  
@@ -156,7 +156,7 @@ GENERALES = [
 BOYS_INFO = {
     "texto": (
         "🔒 Y para *BOYS*, ambiente más activo: te presentas con foto en el "
-        f"[Grupo de presentación BOYS](https://t.me/+2oaZ75NXWAgwZGI0) y entras."
+        f"[Grupo de presentación BOYS](https://t.me/+u2goGuMVEeBhODc0) y entras."
     )
 }
  
