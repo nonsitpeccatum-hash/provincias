@@ -167,6 +167,6 @@ BOYS_INFO = {
     "texto": (
         "🔒 Y para *BOYS*, ambiente más activo: te presentas con foto en el "
         f"[Grupo de presentación BOYS](https://t.me/+u2goGuMVEeBhODc0) y entras."
-    )
+    ),
     "excluir_edades": ["edad_-15","edad_15_18"],  # ej: ["edad_mas_50"] para ocultarlo a ese rango
 }
