@@ -140,8 +140,8 @@ EDADES = {
 # GRUPOS GENERALES / TEMÁTICOS (se entregan siempre, a todo el mundo)
 # ──────────────────────────────────────────────────────────────────────────
 GENERALES = [
-    {"nombre": "Hablar sin miedo", "enlace": "https://t.me/+ga-9ISwD26g5OWRk"},
-    {"nombre": "Conexiones Reales", "enlace": "https://t.me/+TNVU56xsqYM0OGFk"},
+    {"nombre": "Hablar sin miedo (grupo blanco)", "enlace": "https://t.me/+ga-9ISwD26g5OWRk"},
+    {"nombre": "Conexiones Reales (grupo blanco)", "enlace": "https://t.me/+TNVU56xsqYM0OGFk"},
  
     {"nombre": "Videochat Gay España", "enlace": "https://t.me/+HHds6El5omw3ZTlk"},
     {"nombre": "Bears España", "enlace": "https://t.me/+71GO7eMfVqYyM2E0"},
