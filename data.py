@@ -22,6 +22,7 @@ ZONAS = {
         "nombre": "Madrid",
         "detalle": "Madrid y alrededores",
         "enlace": "https://t.me/+BVppEG39X7BjMGE0",
+      "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_cyl_sur": {
         "nombre": "Castilla y León SUR",
