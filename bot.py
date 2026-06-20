@@ -81,6 +81,8 @@ def construir_mensaje_resultado(zona_key: str, edad_key: str) -> str:
 
     lineas.append("🔥 *Además, estos están abiertos para todos:*")
     for grupo in GENERALES:
+        if edad_key in grupo.get("excluir_edades", []):
+            continue
         lineas.append(f"• [{grupo['nombre']}]({grupo['enlace']})")
     lineas.append("")
 
