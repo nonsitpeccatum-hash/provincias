@@ -152,13 +152,13 @@ GENERALES = [
     {"nombre": "Conexiones Reales (grupo blanco)", "enlace": "https://t.me/+96J7nDyReJ4yOTM0"},
  
     {"nombre": "Videochat Gay España", "enlace": "https://t.me/+jElxv1yaIZA1Njg0", "excluir_edades": ["edad_-15","edad_15_18"]},
-    {"nombre": "Bears España", "enlace": "https://t.me/+kdXdBhSv84c4MzNk"},
-    {"nombre": "Relatos Gay", "enlace": "https://t.me/+v_gLKWyqERJmZTM0"},
-    {"nombre": "Retos Gay", "enlace": "https://t.me/+UMy01sLmYU00ZDlk"},
-    {"nombre": "BDSM (grupo adulto temático)", "enlace": "https://t.me/+EBAP-5WcmuI4MDQ0"}
-    {"nombre": "Intergeneracional (todas las edades)", "enlace": "https://t.me/+g3EQ0E8V-lowODlk"},
-    {"nombre": "Decus Mensis (El honor se vota)", "enlace": "https://t.me/+jNMF_TpbfOkzZmQ8"},
-    {"nombre": "Grupos Amigos", "enlace": "https://t.me/+-QGfKH5PltMzOGQ0"},
+    {"nombre": "Bears España", "enlace": "https://t.me/+kdXdBhSv84c4MzNk", "excluir_edades": ["edad_-15","edad_15_18"},
+    {"nombre": "Relatos Gay", "enlace": "https://t.me/+v_gLKWyqERJmZTM0", "excluir_edades": ["edad_-15","edad_15_18"},
+    {"nombre": "Retos Gay", "enlace": "https://t.me/+UMy01sLmYU00ZDlk", "excluir_edades": ["edad_-15","edad_15_18"},
+    {"nombre": "BDSM (grupo adulto temático)", "enlace": "https://t.me/+EBAP-5WcmuI4MDQ0", "excluir_edades": ["edad_-15","edad_15_18"},
+    {"nombre": "Intergeneracional (todas las edades)", "enlace": "https://t.me/+g3EQ0E8V-lowODlk", "excluir_edades": ["edad_-15","edad_15_18"},
+    {"nombre": "Decus Mensis (El honor se vota)", "enlace": "https://t.me/+jNMF_TpbfOkzZmQ8", "excluir_edades": ["edad_-15","edad_15_18"},
+    {"nombre": "Grupos Amigos", "enlace": "https://t.me/+-QGfKH5PltMzOGQ0", "excluir_edades": ["edad_-15","edad_15_18"},
 ]
  
 # Mención especial del grupo BOYS: no es un enlace de acceso directo,
