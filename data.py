@@ -119,11 +119,11 @@ ZONAS = {
 # ──────────────────────────────────────────────────────────────────────────
 EDADES = {
     "edad_-15": {
-        "nombre": "18 a 30",
+        "nombre": "- de 15",
         "enlace": "https://www.youtube.com/watch?v=m0dhNHYbWT8", 
      },
      "edad_15_18": {
-        "nombre": "18 a 30",
+        "nombre": "15 a 18",
         "enlace": "https://www.youtube.com/watch?v=m0dhNHYbWT8",
      },
     "edad_18_30": {
