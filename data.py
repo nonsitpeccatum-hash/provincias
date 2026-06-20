@@ -148,8 +148,8 @@ EDADES = {
 # GRUPOS GENERALES / TEMÁTICOS (se entregan siempre, a todo el mundo)
 # ──────────────────────────────────────────────────────────────────────────
 GENERALES = [
-    {"nombre": "Hablar sin miedo (grupo blanco)", "enlace": "https://t.me/+LHtWQBUZ5-phNjk0"},
-    {"nombre": "Conexiones Reales (grupo blanco)", "enlace": "https://t.me/+96J7nDyReJ4yOTM0"},
+    {"nombre": "Hablar sin miedo (grupo blanco)", "enlace": "https://t.me/+LHtWQBUZ5-phNjk0", "excluir_edades": ["edad_-15","edad_15_18"]},
+    {"nombre": "Conexiones Reales (grupo blanco)", "enlace": "https://t.me/+96J7nDyReJ4yOTM0", "excluir_edades": ["edad_-15","edad_15_18"]},
  
     {"nombre": "Videochat Gay España", "enlace": "https://t.me/+jElxv1yaIZA1Njg0", "excluir_edades": ["edad_-15","edad_15_18"]},
     {"nombre": "Bears España", "enlace": "https://t.me/+kdXdBhSv84c4MzNk", "excluir_edades": ["edad_-15","edad_15_18"]},
@@ -168,5 +168,7 @@ BOYS_INFO = {
         "🔒 Y para *BOYS*, ambiente más activo: te presentas con foto en el "
         f"[Grupo de presentación BOYS](https://t.me/+u2goGuMVEeBhODc0) y entras."
     )
+    "excluir_edades": ["edad_-15","edad_15_18"],  # ej: ["edad_mas_50"] para ocultarlo a ese rango
+}
 }
  
