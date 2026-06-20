@@ -118,6 +118,12 @@ ZONAS = {
 # RANGOS DE EDAD
 # ──────────────────────────────────────────────────────────────────────────
 EDADES = {
+    "edad_-15": {
+        "nombre": "18 a 30",
+        "enlace": "https://www.youtube.com/watch?v=m0dhNHYbWT8", 
+      "edad_15_18": {
+        "nombre": "18 a 30",
+        "enlace": "https://www.youtube.com/watch?v=m0dhNHYbWT8",
     "edad_18_30": {
         "nombre": "18 a 30",
         "enlace": "https://t.me/+SIWj5Abr9-IxNjE0",
@@ -137,7 +143,7 @@ EDADES = {
 }
  
 # ──────────────────────────────────────────────────────────────────────────
-# GRUPOS GENERALES / TEMÁTICOS (se entregan siempre, a todo el mundo)
+# GRUPOS GENERALES / TEMÁTICOS (se entregan solo a mayores de 18 años)
 # ──────────────────────────────────────────────────────────────────────────
 GENERALES = [
     {"nombre": "Hablar sin miedo (grupo blanco)", "enlace": "https://t.me/+LHtWQBUZ5-phNjk0"},
