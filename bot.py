@@ -73,8 +73,9 @@ def construir_mensaje_resultado(zona_key: str, edad_key: str) -> str:
     lineas = []
     lineas.append("✅ *Listo, ya estás dentro.*\n")
 
-    lineas.append(f"📍 *Tu zona* — {zona['nombre']}")
-    lineas.append(f"[Unirme al grupo de mi zona]({zona['enlace']})\n")
+    if edad_key not in zona.get("excluir_edades", []):
+        lineas.append(f"📍 *Tu zona* — {zona['nombre']}")
+        lineas.append(f"[Unirme al grupo de mi zona]({zona['enlace']})\n")
 
     lineas.append(f"🎂 *Tu edad* — {edad['nombre']}")
     lineas.append(f"[Unirme al grupo de mi edad]({edad['enlace']})\n")
@@ -86,7 +87,8 @@ def construir_mensaje_resultado(zona_key: str, edad_key: str) -> str:
         lineas.append(f"• [{grupo['nombre']}]({grupo['enlace']})")
     lineas.append("")
 
-    lineas.append(BOYS_INFO["texto"])
+    if edad_key not in BOYS_INFO.get("excluir_edades", []):
+        lineas.append(BOYS_INFO["texto"])
 
     return "\n".join(lineas)
 
