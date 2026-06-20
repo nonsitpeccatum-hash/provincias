@@ -16,6 +16,7 @@ ZONAS = {
         "nombre": "Catalunya",
         "detalle": "Barcelona, Girona, Tarragona y Lleida",
         "enlace": "https://t.me/+HUTtmU819RMwMTQ0",
+        "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_madrid": {
         "nombre": "Madrid",
