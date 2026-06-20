@@ -140,13 +140,14 @@ EDADES = {
 # GRUPOS GENERALES / TEMÁTICOS (se entregan siempre, a todo el mundo)
 # ──────────────────────────────────────────────────────────────────────────
 GENERALES = [
+    {"nombre": "Hablar sin miedo", "enlace": "https://t.me/+ga-9ISwD26g5OWRk"},
+    {"nombre": "Conexiones Reales", "enlace": "https://t.me/+TNVU56xsqYM0OGFk"},
+ 
     {"nombre": "Videochat Gay España", "enlace": "https://t.me/+HHds6El5omw3ZTlk"},
     {"nombre": "Bears España", "enlace": "https://t.me/+71GO7eMfVqYyM2E0"},
     {"nombre": "Relatos Gay", "enlace": "https://t.me/+AG-WuXXW3aljNDI0"},
     {"nombre": "Retos Gay", "enlace": "https://t.me/+1Icwqo1fU-RlODQ0"},
     {"nombre": "BDSM (grupo adulto temático)", "enlace": "https://t.me/+UTxzuztF6hY5NmM0"},
-    {"nombre": "Hablar sin miedo", "enlace": "https://t.me/+ga-9ISwD26g5OWRk"},
-    {"nombre": "Conexiones Reales", "enlace": "https://t.me/+TNVU56xsqYM0OGFk"},
     {"nombre": "Intergeneracional (todas las edades)", "enlace": "https://t.me/+yDw1vZDRnlg0NWI0"},
     {"nombre": "Grupos Amigos", "enlace": "https://t.me/+X0OWKauWJNphZmM0"},
 ]
