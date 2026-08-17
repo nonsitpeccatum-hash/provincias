@@ -57,7 +57,7 @@ ZONAS = {
     "zona_valencia_castellon": {
         "nombre": "Valencia & Castellón",
         "detalle": "Valencia y Castellón",
-        "enlace": "https://t.me/+PXCC9tZlHR1kMjNk",
+        "enlace": "https://t.me/+O8BaV6RBGKc4ZDU8",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_alicante_murcia": {
@@ -81,13 +81,13 @@ ZONAS = {
     "zona_andalucia_occidental": {
         "nombre": "Andalucía Occidental",
         "detalle": "Sevilla, Córdoba, Cádiz y Huelva",
-        "enlace": "https://t.me/+PXCC9tZlHR1kMjNk",
+        "enlace": "https://t.me/+xY9bn2VMdSRjMmJk",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_andalucia_oriental": {
         "nombre": "Andalucía Oriental",
         "detalle": "Málaga, Granada, Jaén y Almería",
-        "enlace": "https://t.me/+hSyYLLJUqwZlNmI0",
+        "enlace": "https://t.me/+jOMWvNWzDtQyNWU0",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_canarias": {
@@ -148,7 +148,7 @@ EDADES = {
      },
     "edad_18_30": {
         "nombre": "18 a 30",
-        "enlace": "https://t.me/+SIWj5Abr9-IxNjE0",
+        "enlace": "https://t.me/+69DlBnxWc_swYTZk",
     },
     "edad_31_40": {
         "nombre": "31 a 40",
