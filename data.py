@@ -93,7 +93,7 @@ ZONAS = {
     "zona_canarias": {
         "nombre": "Canarias",
         "detalle": "Tenerife, Gran Canaria, Lanzarote y Fuerteventura",
-        "enlace": "https://t.me/+z7V_BiHicAQxZTBk",
+        "enlace": "https://t.me/+m4SJ2KNgDtk1MTE0",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_baleares": {
