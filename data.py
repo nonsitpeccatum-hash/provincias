@@ -15,13 +15,13 @@ ZONAS = {
     "zona_catalunya": {
         "nombre": "Catalunya",
         "detalle": "Barcelona, Girona, Tarragona y Lleida",
-        "enlace": "https://t.me/+HUTtmU819RMwMTQ0",
+        "enlace": "https://t.me/+z7V_BiHicAQxZTBk",
         "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_madrid": {
         "nombre": "Madrid",
         "detalle": "Madrid y alrededores",
-        "enlace": "https://t.me/+BVppEG39X7BjMGE0",
+        "enlace": "https://t.me/+z7V_BiHicAQxZTBk",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_cyl_sur": {
@@ -93,7 +93,7 @@ ZONAS = {
     "zona_canarias": {
         "nombre": "Canarias",
         "detalle": "Tenerife, Gran Canaria, Lanzarote y Fuerteventura",
-        "enlace": "https://t.me/+psmJBet2Sk0zMzE0",
+        "enlace": "https://t.me/+z7V_BiHicAQxZTBk",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_baleares": {
