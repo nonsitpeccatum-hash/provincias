@@ -1,0 +1,87 @@
+{
+  "name": "Directorio LGTBIQA+ de Burgos",
+  "description": "Datos estructurados de recursos, asociaciones, negocios y servicios públicos citados en la guía provincial de Red Gay España.",
+  "url": "https://xn--redgayespaa-beb.es/burgos/",
+  "inLanguage": "es",
+  "lastUpdated": "2026-09-09",
+  "publisher": {
+    "name": "Red Gay España",
+    "url": "https://xn--redgayespaa-beb.es/"
+  },
+  "records": [
+    {
+      "id": "non-sit-peccatum",
+      "name": "Non Sit Peccatum",
+      "type": "negocio",
+      "municipality": "Burgos",
+      "address": "C/ Farmacéutico Obdulio Fernández, 11",
+      "telephone": "+34947217676",
+      "source": "https://www.nonsitpeccatum.es/",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "fuente-oficial-revisada"
+    },
+    {
+      "id": "espacio-seguro",
+      "name": "Espacio Seguro LGTBIQA+ Burgos",
+      "type": "asociacion",
+      "municipality": "Burgos",
+      "address": "C/ Valentín Jalón, 10, 09005 Burgos",
+      "email": "info@espacioseguroburgos.org",
+      "telephone": "+34605125300",
+      "source": "https://espacioseguroburgos.org/",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "fuente-oficial-revisada"
+    },
+    {
+      "id": "comite-antisida-burgos",
+      "name": "Comité Ciudadano Antisida de Burgos",
+      "type": "salud-sexual",
+      "municipality": "Burgos",
+      "address": "C/ Federico Vélez, 4, traseras, 09003 Burgos",
+      "telephone": "+34947240277",
+      "whatsapp": "+34611000840",
+      "source": "https://sidaburgos.org/",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "fuente-oficial-revisada"
+    },
+    {
+      "id": "servicio-028",
+      "name": "Servicio 028 Arcoíris",
+      "type": "ayuda-publica",
+      "areaServed": "Burgos y España",
+      "telephone": "028",
+      "email": "028-online@igualdad.gob.es",
+      "source": "https://www.igualdad.gob.es/comunicacion/sala-de-prensa/igualdad-en-marcha-servicio-028-arcoiris/",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "fuente-oficial-revisada"
+    },
+    {
+      "id": "ceas-burgos",
+      "name": "Información y orientación de los CEAS",
+      "type": "orientacion-social",
+      "areaServed": "Provincia de Burgos",
+      "telephone": "+34947258600",
+      "source": "https://www.burgos.es/ayuntamientos/servicios/bienestar-social/informacion-y-orientacion",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "fuente-oficial-revisada"
+    },
+    {
+      "id": "mapa-recursos-lgtbi",
+      "name": "Mapa de recursos LGTBI+",
+      "type": "directorio-publico",
+      "areaServed": "Burgos y España",
+      "source": "https://wrlgtbi.igualdad.gob.es/recursos-lgtbi/search/SearchForm.action",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "fuente-oficial-revisada"
+    },
+    {
+      "id": "pinares-de-cortes",
+      "name": "Pinares de Cortes",
+      "type": "zona-aproximada",
+      "municipality": "Burgos",
+      "locationPrecision": "aproximada",
+      "sourceReviewed": "2026-09-09",
+      "verificationStatus": "pendiente"
+    }
+  ]
+}
