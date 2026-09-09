@@ -81,13 +81,13 @@ ZONAS = {
     "zona_andalucia_occidental": {
         "nombre": "Andalucía Occidental",
         "detalle": "Sevilla, Córdoba, Cádiz y Huelva",
-        "enlace": "https://t.me/+xY9bn2VMdSRjMmJk",
+                "enlace": "https://t.me/+e-xuneu3oPoyN2U0",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_andalucia_oriental": {
         "nombre": "Andalucía Oriental",
         "detalle": "Málaga, Granada, Jaén y Almería",
-        "enlace": "https://t.me/+jOMWvNWzDtQyNWU0",
+                "enlace": "https://t.me/+e-xuneu3oPoyN2U0",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_canarias": {
@@ -123,7 +123,7 @@ ZONAS = {
     "zona_ceuta_melilla": {
         "nombre": "Ceuta y Melilla",
         "detalle": "Ceuta y Melilla",
-        "enlace": "https://t.me/+kOraxuJcMvMxZmE0",
+                "enlace": "https://t.me/+e-xuneu3oPoyN2U0",
       "excluir_edades": ["edad_-15","edad_15_18"],
     },
     "zona_hispanoamerica": {
